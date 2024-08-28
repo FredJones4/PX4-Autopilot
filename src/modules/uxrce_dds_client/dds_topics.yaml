@@ -74,6 +74,11 @@ publications:
   - topic: /fmu/out/vehicle_trajectory_waypoint_desired
     type: px4_msgs::msg::VehicleTrajectoryWaypoint
 
+  # User defined topics, pulled from available PX4 uORB topics
+  # AirspeedWind
+  - topic: /fmu/out/airspeed_wind
+    type: px4_msgs::msg::AirspeedWind
+
 # Create uORB::Publication
 subscriptions:
   - topic: /fmu/in/register_ext_component_request
